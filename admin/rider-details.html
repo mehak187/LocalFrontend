@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/main1.css">
+    <title>rider details</title>
+</head>
+
+<body>
+    <nav class="navbar panel-nav py-1 py-lg-0 navbar-expand-lg">
+        <div class="mycontainer d-flex justify-content-between flex-wrap align-items-center custom-padd">
+            <a href="dashboard.html" class="navbar-brand logo-panel">
+                <img src="../img/logo.png" alt="logo" class="w-100 h-100">
+            </a>
+            <div class="d-flex align-items-center">
+                <div class="d-flex me-2 d-lg-none justify-content-between align-items-center">
+                    <a href="notifications.html" class="text-decoration-none not-bg me-2 position-relative">
+                        <span class="d-flex align-items-center position-relative">
+                            <i class="fas fa-bell fs-5 not-icon text-black"></i>
+                            <span
+                                class="position-absolute border border-2 border-white bg-blue dot-active rounded-circle"></span>
+                        </span>
+                        <span class="mybadge black2 position-absolute fw-medium">
+                            5
+                        </span>
+                    </a>
+                    <a class="mb-0 text-decoration-none d-flex align-items-center">
+                        <div class="d-none me-2 d-sm-flex flex-column align-items-end">
+                            <h6 class="mb-0 fw-medium text-dark">Name Here</h6>
+                            <span class="font-12 mb-0 text-secondary">
+                                Admin
+                            </span>
+                        </div>
+                        <div class="">
+                            <img src="../img/profile.png" alt="profile" class="profile">
+                        </div>
+                    </a>
+                </div>
+                <button class="navbar-toggler focus-none px-0 mx-0" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <FaBars class="navbar-toggler-icon text-white opacity-hover" />
+                </button>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav d-flex px-lg-3 mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item mx-1 mx-xl-2">
+                        <a href="dashboard.html" class="nav-link ex-small px-1 px-xl-2 ">
+                            Dashboard
+                        </a>
+                    </li>
+                    <li class="nav-item mx-1 mx-xl-2">
+                        <a href="new-requests.html" class="nav-link ex-small px-1 px-xl-2">
+                            New requests
+                        </a>
+                    </li>
+                    <li class="nav-item mx-1 mx-xl-2">
+                        <a href="riders-management.html" class="nav-link ex-small px-1 px-xl-2 active">
+                            Riders Management
+                        </a>
+                    </li>
+                    <li class="nav-item mx-1 mx-xl-2">
+                        <a href="riders-management.html" class="nav-link ex-small px-1 px-xl-2 ">
+                            Drivers Management
+                        </a>
+                    </li>
+                    <li class="nav-item mx-1 mx-xl-2">
+                        <a href="#" class="nav-link ex-small px-1 px-xl-2">
+                            Trips Details
+                        </a>
+                    </li>
+                </ul>
+                <div class="d-none d-lg-flex justify-content-between align-items-center">
+                    <a href="notifications.html" class="text-decoration-none not-bg me-2 position-relative">
+                        <span class="d-flex align-items-center position-relative">
+                            <i class="fas fa-bell fs-5 not-icon text-black"></i>
+                            <span
+                                class="position-absolute border border-2 border-white bg-blue dot-active rounded-circle"></span>
+                        </span>
+                        <span class="mybadge black2 position-absolute fw-medium">
+                            5
+                        </span>
+                    </a>
+                    <a class="mb-0 text-decoration-none d-flex align-items-center">
+                        <div class="d-none me-2 d-sm-flex flex-column align-items-end">
+                            <h6 class="mb-0 fw-medium text-dark">Name Here</h6>
+                            <span class="font-12 mb-0 text-secondary">
+                                Admin
+                            </span>
+                        </div>
+                        <div class="border-blue rounded-circle p-1">
+                            <img src="../img/profile.png" alt="profile" class="rounded-circle profile">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="main">
+        <div class="main-inner">
+            <section>
+                <div class="mycontainer">
+                    <div>
+                        <div class="banner bg-blue rounded-3"></div>
+                        <div class="d-flex flex-column flex-lg-row align-items-lg-end align-items-center justify-content-lg-between user-det ">
+                            <div class="d-flex align-items-end ms-lg-4">
+                                <img src="../img/rider.png" alt="rider" class="me-2 rounded-circle border-blue detail-user">
+                                <p class=" text-capitalize fw-semibold">Rider Full Name</p>
+                            </div>
+                            <div class="d-flex flex-column flex-md-row align-items-center mt-3">
+                                <div class="d-flex align-items-center my-2 my-lg-0 me-2">
+                                    <h6 class="fs-6 text-blue mb-0 me-2">Role:</h6>
+                                    <p class="mb-0 text-black">Rider</p>
+                                </div>
+                               <div class="d-flex flex-wrap justify-content-center justify-content-md-start flex-md-nowrap align-items-center">
+                                <a href="#" class="bg-blue text-white rounded-3 text-decoration-none fw-medium d-flex align-items-center my-2 my-lg-0 px-3 py-2 me-2">
+                                    <i class="fa-solid fa-pencil me-2"></i>
+                                    <span class="small">Edit</span>
+                                </a>
+                                <a href="#" class="redbtn text-black rounded-3 text-decoration-none fw-medium d-flex align-items-center my-2 my-lg-0 px-3 py-2 me-2">
+                                    <img src="../img/delete.png" class="det-small-icon me-1" alt="suspend">
+                                    <span class="small">Delete</span>
+                                </a>
+                                <a href="#" class="redbtn text-black rounded-3 text-decoration-none fw-medium d-flex align-items-center my-2 my-lg-0 px-3 py-2 me-2">
+                                    <img src="../img/suspend.png" class="det-small-icon me-1" alt="suspend">
+                                    <span class="small">Suspend Account</span>
+                                </a>
+                                <a href="#" class="redbtn text-black rounded-3 text-decoration-none fw-medium d-flex align-items-center my-2 my-lg-0 px-3 py-2">
+                                    <img src="../img/decline.png" class="det-small-icon me-1" alt="close">
+                                    <span class="small">Close Account</span>
+                                </a>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-4">
+                        <!-- <h2 class="fs-5 fw-semibold">Personal information</h2> -->
+                        <div class="rounded-2 info-bg">
+                            <h2 class="fs-5 px-3 pt-4 fw-semibold mb-0">Personal information</h2>
+                            <div class="py-3 px-3 d-flex flex-column flex-sm-row justify-content-center flex-wrap align-items-center justify-content-start border-bottom border-1">
+                                <div class="d-flex flex-column flex-sm-row align-items-center my-1 me-sm-3">
+                                    <h4 class="fs-6 fw-medium mb-0 text-blue me-sm-3">First Name:</h4>
+                                    <p class="mb-0 fs-6 fw-medium">DJ</p>
+                                </div>
+                                <div class="d-flex flex-column flex-sm-row align-items-center my-1 me-sm-3">
+                                    <h4 class="fs-6 fw-medium mb-0 text-blue me-sm-3">Last Name:</h4>
+                                    <p class="mb-0 fs-6 fw-medium">Robinson</p>
+                                </div>
+                                <div class="d-flex flex-column flex-sm-row align-items-center my-1 me-sm-3">
+                                    <h4 class="fs-6 fw-medium mb-0 text-blue me-sm-3">Phone Number:</h4>
+                                    <p class="mb-0 fs-6 fw-medium">+21 91 999 999</p>
+                                </div>
+                                <div class="d-flex flex-column flex-sm-row align-items-center my-1 me-sm-3">
+                                    <h4 class="fs-6 fw-medium mb-0 text-blue me-sm-3">Email:</h4>
+                                    <p class="mb-0 fs-6 fw-medium">client@gmail.com</p>
+                                </div>
+                                <div class="d-flex flex-column flex-sm-row align-items-center my-1 me-sm-3">
+                                    <h4 class="fs-6 fw-medium mb-0 text-blue me-sm-3">Address:</h4>
+                                    <p class="mb-0 fs-6 fw-medium">riderexapleaddresshere</p>
+                                </div>
+                                <div class="d-flex flex-column flex-sm-row align-items-center my-1 me-sm-3">
+                                    <h4 class="fs-6 fw-medium mb-0 text-blue me-sm-3">Role:</h4>
+                                    <p class="mb-0 fs-6 fw-medium">Rider</p>
+                                </div>
+                            </div>
+                            <h2 class="fs-5 px-3 pt-4 fw-semibold mb-0">Personal Preferences</h2>
+                            <div class="py-3 px-3 d-flex flex-column flex-xxl-row flex-wrap justify-content-center align-items-center border-bottom border-1">
+                                <div class="d-flex flex-column flex-md-row justify-content-center justify-content-xxl-start align-items-center my-1 me-xxl-3">
+                                    <h4 class="fs-6 fw-medium mb-0 text-blue me-md-3 border-end border-1 pe-md-3 border-tab-none">I like to talk about:</h4>
+                                    <div class="d-flex justify-content-center justify-content-xxl-start flex-wrap align-items-center">
+                                        <p class="mb-0 fs-6 fw-medium px-3 border-end border-1 border-tab-none">Music</p>
+                                        <p class="mb-0 fs-6 fw-medium px-3 border-end border-1 border-tab-none">Food & Drink</p>
+                                        <p class="mb-0 fs-6 fw-medium px-3 border-end border-1 border-tab-none">Pets</p>
+                                        <p class="mb-0 fs-6 fw-medium px-3 border-end border-1 border-tab-none border-desk-none">Photography</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-column flex-md-row justify-content-center justify-content-xxl-start align-items-center my-1 me-xxl-3">
+                                    <h4 class="fs-6 fw-medium mb-0 text-blue me-md-3  border-end border-1 pe-md-3 border-tab-none">I like to listen to:</h4>
+                                    <div class="d-flex justify-content-center justify-content-xxl-start flex-wrap align-items-center border-end border-1 border-desk-none">
+                                        <p class="mb-0 fs-6 fw-medium px-3 border-end border-1 border-tab-none">Jazz</p>
+                                        <p class="mb-0 fs-6 fw-medium px-3 border-end border-1 border-tab-none">Electronic</p>
+                                        <p class="mb-0 fs-6 fw-medium px-3 border-end border-1 border-tab-none">Pop</p>
+                                        <p class="mb-0 fs-6 fw-medium px-3">Political Podcasts</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <h2 class="fs-5 px-3 pt-4 fw-semibold">Trips & Offered  Details:</h2>
+                            <div class="py-3 px-3 d-flex flex-wrap align-items-center ">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
