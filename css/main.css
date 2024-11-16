@@ -77,18 +77,22 @@ body{
 }
 
 :root{
-    --blue: #57B9FF;
+    --blue: #02A552;
+    --dark:#005329
 }
 
 .bg-blue {
     background-color: var(--blue) !important;
 }
-
-.text-blue {
-    color: var(--blue);
+.bg-dark {
+    background-color: var(--dark) !important;
 }
 
-.bg-grey {
+.text-blue {
+    color: var(--dark);
+}
+
+.bg-griiey {
     background: #F7F7F7;
 }
 

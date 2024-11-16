@@ -33,7 +33,8 @@
 /* --------navbar-------- */
 .panel-nav {
     background: #F7F7F7;
-    z-index: 999999999999999;
+    z-index: 2;
+    padding: 0 10px;
 }
 
 .panel-nav .navbar-nav .nav-link.active {
@@ -63,7 +64,8 @@
 }
 
 .logo-panel {
-    max-width: 180px;
+    max-width: 130px;
+    padding: 10px 0;
 }
 
 .not-bg {
@@ -114,26 +116,40 @@
 
 }
 /* -----table-------- */
-.default-table thead tr {
-    background-color: #ffffff;
-    border: 1px solid #222222;
-    border-radius: 10px;
-}
-
 .default-table thead tr th {
     background-color: #ffffff;
     padding: 18px 15px;
     border-bottom: none;
-    color: var(--blue);
+    color: var(--dark);
 }
 
 .default-table tbody tr td {
-    background-color: #F4FBFF;
-    padding: 18px 15px;
+    background-color: #F7F7F7;
+    padding: 14px 15px;
 }
 
-.default-table thead {
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+.default-table.table-header-shadow {
+    position: relative;
+    padding:8px 0px;
+    width: calc(100% - 10px);
+    overflow: auto;
+    min-height: calc(100dvh - 400px);
+}
+
+.default-table table {
+    min-width: 800px;
+}
+
+.default-table.table-header-shadow:before {
+    position: absolute;
+    content: '';
+    overflow-x: auto;
+    left: 4px;
+    width: calc(100% - 8px);
+    min-width: 800px;
+    height: 57px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 8px;
 }
 
 .custom-toggle .dropdown-toggle::after {
@@ -151,7 +167,6 @@
 
 .user-img {
     width: 40px;
-    border: 3px solid #fff;
 }
 
 .custom-toggle li a {
@@ -189,10 +204,6 @@
 }
 
 /* -----detail and add------ */
-.banner {
-    height: 160px;
-}
-
 .detail-user {
     width: 100px;
     height: 100px;
@@ -273,6 +284,31 @@
     height: 40px;
 }
 
+.bg-ngrey {
+    background: #E7E7E7 !important;
+}
+
+.status-green {
+    color: #02A552;
+}
+
+.status-yellow {
+    color: #FA6E20;
+}
+
+.status-red {
+    color: #870000;
+}
+
+.status-black {
+    color: #231F20;
+}
+
+.vertical-bottom {
+    vertical-align: bottom;
+    width: 20px;
+}
+
 @media screen and (max-width:1400px) {
     .mycontainer {
         padding: 0 50px;
@@ -284,7 +320,7 @@
 
 @media screen and (max-width:1200px) {
     .logo-panel {
-        max-width: 155px;
+        max-width: 90px;
     }
     .mycontainer {
         padding: 0 20px;
@@ -305,7 +341,8 @@
     .panel-nav .mycontainer{
         position: absolute;
         top: 0;
-        background: #fff;
+        height: 60px;
+        background: #F7F7F7;
     }
 
     .panel-nav .navbar-nav .nav-link {
@@ -330,6 +367,10 @@
 
     .panel-nav .navbar-nav .nav-link {
         padding-top: 10px;
+    }
+
+    .default-table.table-header-shadow {
+        min-height:100%;
     }
 }
 @media screen and (max-width:768px) {
@@ -356,10 +397,6 @@
         max-width: 100%;
     }
 
-    .banner {
-        height: 120px;
-    }
-
 }
 @media screen and (max-width:480px) {
     .mycontainer {
@@ -373,7 +410,7 @@
 
 @media screen and (max-width:375px) {
     .logo-panel {
-        max-width: 140px;
+        max-width: 80px;
     }
     
     .mytabs .nav-link{
