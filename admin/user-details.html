@@ -19,7 +19,18 @@
             </a>
             <div class="d-flex align-items-center">
                 <div class="d-flex me-2 d-lg-none justify-content-between align-items-center">
-                    <a href="notifications.html" class="text-decoration-none not-bg me-2 position-relative">
+                    <a class="mb-0 text-decoration-none d-flex align-items-center me-2 ">
+                        <div class="d-none me-2 d-sm-flex d-lg-none d-xl-flex  flex-column align-items-end">
+                            <h6 class="mb-0 fw-medium text-dark">Name Here</h6>
+                            <span class="font-12 mb-0 text-secondary">
+                                Admin
+                            </span>
+                        </div>
+                          <div class="border-blue rounded-circle p-1">
+                            <img src="../img/profile.png" alt="profile" class="profile">
+                        </div>
+                    </a>
+                    <a href="notifications.html" class="text-decoration-none not-bg position-relative">
                         <span class="d-flex align-items-center position-relative">
                             <i class="fas fa-bell fs-5 not-icon text-black"></i>
                             <span
@@ -28,17 +39,6 @@
                         <span class="mybadge black2 position-absolute fw-medium">
                             5
                         </span>
-                    </a>
-                    <a class="mb-0 text-decoration-none d-flex align-items-center">
-                        <div class="d-none me-2 d-sm-flex flex-column align-items-end">
-                            <h6 class="mb-0 fw-medium text-dark">Name Here</h6>
-                            <span class="font-12 mb-0 text-secondary">
-                                Admin
-                            </span>
-                        </div>
-                        <div class="">
-                            <img src="../img/profile.png" alt="profile" class="profile">
-                        </div>
                     </a>
                 </div>
                 <button class="navbar-toggler focus-none px-0 mx-0" type="button" data-bs-toggle="collapse"
@@ -49,35 +49,51 @@
             </div>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav d-flex px-lg-3 mx-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav d-flex px-xl-3 mx-auto mb-2 mb-lg-0">
                     <li class="nav-item mx-1 mx-xl-2">
                         <a href="dashboard.html" class="nav-link ex-small px-1 px-xl-2 ">
                             Dashboard
                         </a>
                     </li>
                     <li class="nav-item mx-1 mx-xl-2">
-                        <a href="new-requests.html" class="nav-link ex-small px-1 px-xl-2">
-                            New requests
+                        <a href="users-management.html" class="nav-link ex-small px-1 px-xl-2 active">
+                            User Management
                         </a>
                     </li>
                     <li class="nav-item mx-1 mx-xl-2">
-                        <a href="riders-management.html" class="nav-link ex-small px-1 px-xl-2 active">
-                            Riders Management
+                        <a href="rental-log.html" class="nav-link ex-small px-1 px-xl-2">
+                            Rental Log
                         </a>
                     </li>
                     <li class="nav-item mx-1 mx-xl-2">
-                        <a href="riders-management.html" class="nav-link ex-small px-1 px-xl-2 ">
-                            Drivers Management
+                        <a href="sale-log.html" class="nav-link ex-small px-1 px-xl-2">
+                            Sale Log
                         </a>
                     </li>
                     <li class="nav-item mx-1 mx-xl-2">
-                        <a href="#" class="nav-link ex-small px-1 px-xl-2">
-                            Trips Details
+                        <a href="category-management.html" class="nav-link ex-small px-1 px-xl-2">
+                            Category Management
+                        </a>
+                    </li>
+                    <li class="nav-item mx-1 mx-xl-2">
+                        <a href="items-management.html" class="nav-link ex-small px-1 px-xl-2">
+                            Items Management
                         </a>
                     </li>
                 </ul>
                 <div class="d-none d-lg-flex justify-content-between align-items-center">
-                    <a href="notifications.html" class="text-decoration-none not-bg me-2 position-relative">
+                    <a class="mb-0 text-decoration-none d-flex align-items-center me-2 ">
+                        <div class="d-none me-2 d-sm-flex d-lg-none d-xl-flex  flex-column align-items-end">
+                            <h6 class="mb-0 fw-medium text-dark">Dj RobinSon</h6>
+                            <span class="font-12 mb-0 text-secondary">
+                                Admin
+                            </span>
+                        </div>
+                        <div class="border-blue rounded-circle p-1">
+                            <img src="../img/profile.png" alt="profile" class="rounded-circle profile">
+                        </div>
+                    </a>
+                    <a href="notifications.html" class="text-decoration-none not-bg position-relative">
                         <span class="d-flex align-items-center position-relative">
                             <i class="fas fa-bell fs-5 not-icon text-black"></i>
                             <span
@@ -86,17 +102,6 @@
                         <span class="mybadge black2 position-absolute fw-medium">
                             5
                         </span>
-                    </a>
-                    <a class="mb-0 text-decoration-none d-flex align-items-center">
-                        <div class="d-none me-2 d-sm-flex flex-column align-items-end">
-                            <h6 class="mb-0 fw-medium text-dark">Name Here</h6>
-                            <span class="font-12 mb-0 text-secondary">
-                                Admin
-                            </span>
-                        </div>
-                        <div class="border-blue rounded-circle p-1">
-                            <img src="../img/profile.png" alt="profile" class="rounded-circle profile">
-                        </div>
                     </a>
                 </div>
             </div>
@@ -109,24 +114,28 @@
                     <div>
                         <div class="banner py-3 px-3 bg-blue rounded-3">
                             <div class="d-flex flex-wrap justify-content-center justify-content-md-end flex-md-nowrap align-items-center">
-                                <a href="#" class="bg-white text-black rounded-3 text-decoration-none fw-medium d-flex align-items-center my-2 my-lg-0 px-3 py-2 mx-1">
+                                <a href="#"
+                                    class="bg-white text-black rounded-3 text-decoration-none fw-medium d-flex align-items-center my-2 my-lg-0 px-3 py-2 mx-1">
                                     <i class="fa-solid fa-pencil me-2"></i>
                                     <span class="small">Edit</span>
                                 </a>
-                                <a href="#" class="bg-white text-black rounded-3 text-decoration-none fw-medium d-flex align-items-center my-2 my-lg-0 px-3 py-2 mx-1">
+                                <a href="#"
+                                    class="bg-white text-black rounded-3 text-decoration-none fw-medium d-flex align-items-center my-2 my-lg-0 px-3 py-2 mx-1">
                                     <img src="../img/delete.png" class="det-small-icon me-1" alt="suspend">
                                     <span class="small">Delete</span>
                                 </a>
-                                <a href="#" class="bg-white text-black rounded-3 text-decoration-none fw-medium d-flex align-items-center my-2 my-lg-0 px-3 py-2 mx-1">
+                                <a href="#"
+                                    class="bg-white text-black rounded-3 text-decoration-none fw-medium d-flex align-items-center my-2 my-lg-0 px-3 py-2 mx-1">
                                     <img src="../img/suspend.png" class="det-small-icon me-1" alt="suspend">
                                     <span class="small">Suspend Account</span>
                                 </a>
-                                <a href="#" class="bg-white text-black rounded-3 text-decoration-none fw-medium d-flex align-items-center my-2 my-lg-0 px-3 py-2">
+                                <a href="#"
+                                    class="bg-white text-black rounded-3 text-decoration-none fw-medium d-flex align-items-center my-2 my-lg-0 px-3 py-2">
                                     <img src="../img/decline.png" class="det-small-icon me-1" alt="close">
                                     <span class="small">Close Account</span>
                                 </a>
-                               </div>
-                               <div class="d-flex justify-content-center justify-content-md-start mt-2 align-items-center">
+                            </div>
+                            <div class="d-flex mb-md-4 justify-content-center justify-content-md-start mt-2 mt-md-0 align-items-center">
                                 <img src="../img/rider.png" alt="rider" class="me-2 rounded-circle border-0 detail-user">
                                 <p class=" text-capitalize mb-0 text-white fw-semibold">Full Name</p>
                             </div>
@@ -136,32 +145,32 @@
                     <div class="mt-4">
                         <!-- <h2 class="fs-5 fw-semibold">Personal information</h2> -->
                         <div class="rounded-2 info-bg">
-                            <h2 class="fs-5 px-3 pt-4 fw-semibold mb-0">Personal information</h2>
+                            <h2 class="fs-5 text-darkgreen px-3 pt-4 fw-bold mb-0">Personal information</h2>
                             <div class="py-3 px-3 d-flex flex-column flex-sm-row justify-content-center justify-content-lg-start flex-wrap align-items-center justify-content-start">
-                                <div class="d-flex flex-column flex-sm-row align-items-center my-1 me-sm-4">
+                                <div class="d-flex flex-column flex-sm-row align-items-center me-sm-5 my-2 my-sm-1">
                                     <h4 class="fs-6 fw-semibold mb-0 text-blue me-sm-3">First Name:</h4>
-                                    <div class="d-flex align-items-center">
+                                    <div class="d-flex align-items-center mt-1 mt-sm-0">
                                         <img src="../img/name.png" alt="name" class="me-1 vertical-bottom">
                                         <p class="mb-0 fs-6 fw-medium">First Name</p>
                                     </div>
                                 </div>
-                                <div class="d-flex flex-column flex-sm-row align-items-center my-1 me-sm-4">
+                                <div class="d-flex flex-column flex-sm-row align-items-center me-sm-5 my-2 my-sm-1">
                                     <h4 class="fs-6 fw-semibold  mb-0 text-blue me-sm-3">Last Name:</h4>
-                                    <div class="d-flex align-items-center">
+                                    <div class="d-flex align-items-center mt-1 mt-sm-0">
                                         <img src="../img/name.png" alt="name" class="me-1 vertical-bottom">
                                         <p class="mb-0 fs-6 fw-medium">Last Name</p>
                                     </div>
                                 </div>
-                                <div class="d-flex flex-column flex-sm-row align-items-center my-1 me-sm-3">
+                                <div class="d-flex flex-column flex-sm-row align-items-center me-sm-5 my-2 my-sm-1">
                                     <h4 class="fs-6 fw-semibold  mb-0 text-blue me-sm-3">Phone Number:</h4>
-                                    <div class="d-flex align-items-center">
+                                    <div class="d-flex align-items-center mt-1 mt-sm-0">
                                         <img src="../img/phone.png" alt="phone" class="me-1 vertical-bottom">
                                         <p class="mb-0 fs-6 fw-medium">+21 91 999 999</p>
                                     </div>
                                 </div>
-                                <div class="d-flex flex-column flex-sm-row align-items-center my-1 me-sm-3">
+                                <div class="d-flex flex-column flex-sm-row align-items-center me-sm-5 my-2 my-sm-1">
                                     <h4 class="fs-6 fw-semibold  mb-0 text-blue me-sm-3">Email:</h4>
-                                    <div class="d-flex align-items-center">
+                                    <div class="d-flex align-items-center mt-1 mt-sm-0">
                                         <img src="../img/email.png" alt="email" class="me-1 vertical-bottom">
                                         <p class="mb-0 fs-6 fw-medium">client@gmail.com</p>
                                     </div>

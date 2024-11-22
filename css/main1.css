@@ -69,14 +69,13 @@
 }
 
 .not-bg {
-    background: #E7F1F8;
     padding: 13px 14px;
     border-radius: 50%;
-    border: 1px solid #57B9FF;
+    border: 1px solid var(--blue);
 }
 
 .mybadge {
-    background: #57B9FF;
+    background: var(--blue);
     padding: 1px 5px;
     border-radius: 50%;
     font-size: 11px;
@@ -102,7 +101,7 @@
 
 .main {
     height: calc(100dvh - 70px);
-    padding: 10px 10px;
+    padding: 26px 10px;
 }
 .main-inner {
     height: 100%;
@@ -246,8 +245,8 @@
 }
 
 .notf-inner {
-    height: calc(100dvh - 258px);
-    overflow-y: auto;
+    height: calc(100dvh - 294px);
+    overflow-y: auto
 }
 
 .not-img {
@@ -256,9 +255,10 @@
 }
 
 .notification {
-    background: #E7F1F8;
+    background: #DFEFE6;
     margin-bottom: 20px;
 }
+
 .notification:last-child {
     margin-bottom: 0px;
 }
@@ -309,6 +309,15 @@
     width: 20px;
 }
 
+.text-delete {
+    color: #BD0000;
+}
+
+.back-bg {
+    background: #DFEFE6;
+}
+
+
 @media screen and (max-width:1400px) {
     .mycontainer {
         padding: 0 50px;
@@ -319,36 +328,22 @@
 }
 
 @media screen and (max-width:1200px) {
-    .logo-panel {
-        max-width: 90px;
-    }
     .mycontainer {
         padding: 0 20px;
     }
-    
+    .logo-panel {
+        max-width: 100px;
+        padding: 10px 0;
+    }
 }
 
+
 @media screen and (max-width:992px) {
-    .shadow-tab {
+    /* .shadow-tab {
         box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
         border-radius: 14px;
     }
-
-    .panel-nav {
-        height: 60px;
-    }
-
-    .panel-nav .mycontainer{
-        position: absolute;
-        top: 0;
-        height: 60px;
-        background: #F7F7F7;
-    }
-
-    .panel-nav .navbar-nav .nav-link {
-        padding-bottom: 12px;
-    }
-
+*/
     .panel-nav .navbar-nav .nav-link.active:before {
         position: absolute;
         content: '';
@@ -358,8 +353,8 @@
         width: 100%;
         left: 50%;
         transform: translateX(-50%);
-        bottom: 4px;
-    }
+        bottom: 14px;
+    } 
 
     .mycontainer {
         padding: 0 15px;

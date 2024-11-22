@@ -84,11 +84,16 @@ body{
 .bg-blue {
     background-color: var(--blue) !important;
 }
+
 .bg-dark {
     background-color: var(--dark) !important;
 }
 
 .text-blue {
+    color: var(--dark);
+}
+
+.text-darkgreen {
     color: var(--dark);
 }
 
